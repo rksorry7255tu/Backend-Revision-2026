@@ -2,9 +2,11 @@
   "name": "backend-revision-2026",
   "version": "1.0.0",
   "description": "Revision of Backend in 2026",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rksorry7255tu/Backend-Revision-2026/issues"
   },
-  "homepage": "https://github.com/rksorry7255tu/Backend-Revision-2026#readme"
+  "homepage": "https://github.com/rksorry7255tu/Backend-Revision-2026#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
